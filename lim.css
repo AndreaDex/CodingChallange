@@ -1,0 +1,75 @@
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.Container{
+  margin: 5% 15% 10% 15%;
+  padding: 5% 5% 5% 5%;
+  background-color: rgba(26,26,26,0.5);
+}
+
+.logo-img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.logo-tx{
+  color: hsl(120,100%,50%);
+  text-align: center;
+  font-size: 150px;
+}
+
+.navi{
+  height: 150px;
+  background-color: hsl(120,100%,50%);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bott{
+  font-size: 45px;
+}
+
+.scelte{
+  color: white;
+  padding-top: 40px;
+}
+
+input.larger{
+  width: 30px;
+  height: 30px;
+}
+
+span{
+  font-size: 60px;
+}
+
+p, p:before{
+  content: "\2192";
+  font-size: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+div.bar{
+  height: 60px;
+  width: 400px;
+  border-radius: 8%;
+  background-color: orange;
+}
+
+#green{
+  width: 900px;
+  background-color: green;
+}
+
+#red{
+  width: 200px;
+  background-color: red;
+}
